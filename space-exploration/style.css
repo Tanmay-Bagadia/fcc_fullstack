@@ -1,0 +1,38 @@
+body {
+  color: white;
+  background-image: url("images/bryan-goff-f7YQo-eYHdM-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Orbitron", sans-serif;
+}
+
+.apply {
+  padding: 6px 12px;
+  border-radius: 0;
+  border: none;
+  font-size: medium;
+  font-weight: bold;
+  background-color: white;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0 40px 0;
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 0px 0px 4px black;
+}
+
+.underline {
+  border-bottom: 4px solid white;
+}
+
+.spacex-logo {
+  width: 100px;
+}

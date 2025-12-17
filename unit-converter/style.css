@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper p {
+  white-space: pre-line;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.162);
+}
+
+.input-el {
+  font-weight: bold;
+  padding: 10px;
+  width: 30vw;
+}
+
+button {
+  padding: 10px 30px;
+  font-weight: bold;
+  background-color: #013420;
+  color: white;
+  cursor: pointer;
+}

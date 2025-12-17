@@ -1,0 +1,57 @@
+.container,
+.leader {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #28194c;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.box {
+  padding: 30px;
+}
+
+.score-box {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 15vw;
+  padding: 35px;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #f72585;
+}
+.score-box h3 {
+  color: #f72585;
+}
+
+h3 {
+  color: white;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.buttons {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  border: 1px solid white;
+  background-color: inherit;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.lead {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+#lead {
+  color: #f72585;
+}

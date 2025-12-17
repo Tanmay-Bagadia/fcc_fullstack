@@ -1,0 +1,45 @@
+.search {
+  display: block;
+  width: 400px;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  font-family: Roboto;
+  height: 30px;
+  padding: 0 10px 0px 10px;
+}
+
+.logo {
+  display: block;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.google {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  width: 200px;
+  margin: 2px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-weight: bold;
+  transition: 0.15s;
+}
+
+button:hover {
+  opacity: 0.6;
+}
