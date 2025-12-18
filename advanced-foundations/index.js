@@ -2,7 +2,7 @@ import { propertyForSaleArr } from "./properties/propertyForSaleArr.js";
 
 import { placeholderPropertyObj } from "./properties/placeholderPropertyObj.js";
 
-function getPropertyHtml(propertyArr = placeholderPropertyObj) {
+function getPropertyHtml(propertyArr = [placeholderPropertyObj]) {
   return propertyArr.map((property) => {
     const { propertyLocation, priceGBP, roomsM2, comment, image } = property;
     let totalRoomsM2 = roomsM2.reduce((total, num) => {
@@ -25,7 +25,7 @@ function getPropertyHtml(propertyArr = placeholderPropertyObj) {
 
 /***** Modify 👇 by adding an argument to the function call ONLY. *****/
 document.getElementById("container").innerHTML =
-  getPropertyHtml(propertyForSaleArr);
+  getPropertyHtml(propertyForSaleArr).join("");
 
 /*
 SUPER CHALLENGE 💪
